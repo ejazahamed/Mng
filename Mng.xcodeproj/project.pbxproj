@@ -35,6 +35,13 @@
 		3B76BFAF1AE3146900B0FAE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B76BFAE1AE3146900B0FAE2 /* CoreGraphics.framework */; };
 		3B76BFB11AE3147100B0FAE2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B76BFB01AE3147100B0FAE2 /* CFNetwork.framework */; };
 		3B76BFB31AE3147E00B0FAE2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B76BFB21AE3147E00B0FAE2 /* AudioToolbox.framework */; };
+		3BED556D1AE349F200ABE567 /* 2604045.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BED556C1AE349F200ABE567 /* 2604045.png */; };
+		3BED556F1AE3975C00ABE567 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED556E1AE3975C00ABE567 /* Alamofire.swift */; };
+		3BED55741AE39E2700ABE567 /* Attribute_Shopaholic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BED55701AE39E2700ABE567 /* Attribute_Shopaholic@2x.png */; };
+		3BED55751AE39E2700ABE567 /* Attribute_Gourmet_Guru@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BED55711AE39E2700ABE567 /* Attribute_Gourmet_Guru@2x.png */; };
+		3BED55761AE39E2700ABE567 /* Attribute_FitnessFreak@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BED55721AE39E2700ABE567 /* Attribute_FitnessFreak@2x.png */; };
+		3BED55771AE39E2700ABE567 /* Attribute_entertainment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BED55731AE39E2700ABE567 /* Attribute_entertainment@2x.png */; };
+		3BED55791AE3AD5000ABE567 /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED55781AE3AD5000ABE567 /* json.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +92,13 @@
 		3B76BFAE1AE3146900B0FAE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3B76BFB01AE3147100B0FAE2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		3B76BFB21AE3147E00B0FAE2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3BED556C1AE349F200ABE567 /* 2604045.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2604045.png; sourceTree = "<group>"; };
+		3BED556E1AE3975C00ABE567 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		3BED55701AE39E2700ABE567 /* Attribute_Shopaholic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Attribute_Shopaholic@2x.png"; sourceTree = "<group>"; };
+		3BED55711AE39E2700ABE567 /* Attribute_Gourmet_Guru@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Attribute_Gourmet_Guru@2x.png"; sourceTree = "<group>"; };
+		3BED55721AE39E2700ABE567 /* Attribute_FitnessFreak@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Attribute_FitnessFreak@2x.png"; sourceTree = "<group>"; };
+		3BED55731AE39E2700ABE567 /* Attribute_entertainment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Attribute_entertainment@2x.png"; sourceTree = "<group>"; };
+		3BED55781AE3AD5000ABE567 /* json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +158,7 @@
 		3B76BF5B1AE30FCE00B0FAE2 /* Mng */ = {
 			isa = PBXGroup;
 			children = (
+				3BED556B1AE349F200ABE567 /* Images */,
 				3B76BF7F1AE3133C00B0FAE2 /* Mng-Bridging-Header.h */,
 				3B76BF831AE3137C00B0FAE2 /* Vendor */,
 				3B76BF7E1AE3131E00B0FAE2 /* Helpers */,
@@ -194,6 +209,8 @@
 		3B76BF831AE3137C00B0FAE2 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				3BED55781AE3AD5000ABE567 /* json.swift */,
+				3BED556E1AE3975C00ABE567 /* Alamofire.swift */,
 				3B76BF971AE313D300B0FAE2 /* SystemFramework */,
 				3B76BF841AE313B800B0FAE2 /* SVProgressHUD */,
 				3B76BF8B1AE313B800B0FAE2 /* ParseLib */,
@@ -244,6 +261,18 @@
 				3B76BF981AE313F900B0FAE2 /* MapKit.framework */,
 			);
 			name = SystemFramework;
+			sourceTree = "<group>";
+		};
+		3BED556B1AE349F200ABE567 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3BED55701AE39E2700ABE567 /* Attribute_Shopaholic@2x.png */,
+				3BED55711AE39E2700ABE567 /* Attribute_Gourmet_Guru@2x.png */,
+				3BED55721AE39E2700ABE567 /* Attribute_FitnessFreak@2x.png */,
+				3BED55731AE39E2700ABE567 /* Attribute_entertainment@2x.png */,
+				3BED556C1AE349F200ABE567 /* 2604045.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,7 +357,12 @@
 			files = (
 				3B76BF641AE30FCE00B0FAE2 /* Main.storyboard in Resources */,
 				3B76BF691AE30FCE00B0FAE2 /* LaunchScreen.xib in Resources */,
+				3BED556D1AE349F200ABE567 /* 2604045.png in Resources */,
 				3B76BF661AE30FCE00B0FAE2 /* Images.xcassets in Resources */,
+				3BED55751AE39E2700ABE567 /* Attribute_Gourmet_Guru@2x.png in Resources */,
+				3BED55761AE39E2700ABE567 /* Attribute_FitnessFreak@2x.png in Resources */,
+				3BED55771AE39E2700ABE567 /* Attribute_entertainment@2x.png in Resources */,
+				3BED55741AE39E2700ABE567 /* Attribute_Shopaholic@2x.png in Resources */,
 				3B76BF911AE313B800B0FAE2 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,8 +381,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BED556F1AE3975C00ABE567 /* Alamofire.swift in Sources */,
 				3B76BF821AE3133D00B0FAE2 /* UIView+Utils.m in Sources */,
 				3B76BF611AE30FCE00B0FAE2 /* ViewController.swift in Sources */,
+				3BED55791AE3AD5000ABE567 /* json.swift in Sources */,
 				3B76BF921AE313B800B0FAE2 /* SVProgressHUD.m in Sources */,
 				3B76BF5F1AE30FCE00B0FAE2 /* AppDelegate.swift in Sources */,
 				3B76BF901AE313B800B0FAE2 /* SVIndefiniteAnimatedView.m in Sources */,
@@ -560,6 +596,7 @@
 				3B76BF7A1AE30FCF00B0FAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B76BF7B1AE30FCF00B0FAE2 /* Build configuration list for PBXNativeTarget "MngTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +605,7 @@
 				3B76BF7D1AE30FCF00B0FAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
